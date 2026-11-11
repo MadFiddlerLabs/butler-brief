@@ -1,0 +1,13 @@
+{
+  "name": "build-your-butler",
+  "description": "Free Claude Code plugins from Build Your Butler, the free course that teaches families to build a household assistant.",
+  "owner": {
+    "name": "AELaboratories"
+  },
+  "plugins": [
+    {
+      "name": "butler-brief",
+      "source": "./"
+    }
+  ]
+}
