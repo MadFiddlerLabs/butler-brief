@@ -31,7 +31,9 @@ Then, in Claude Code:
 2. **Each morning**, it gathers today's calendar (from a calendar connector if you have one, or
    from what you tell it), the weather (with your permission) and your to-dos.
 3. **It writes the brief**, under 250 words, and saves it as `morning-brief/briefs/<date>.md`.
-4. **You reply in plain words** to change things: "add milk to the to-dos", "leave out the weather".
+4. **You reply in plain words** to change things: "add milk to the to-dos", "milk is done",
+   "leave out the weather". Run it again the same day and it shows today's brief, refreshing it
+   only if you say so.
 
 ## Example prompts
 

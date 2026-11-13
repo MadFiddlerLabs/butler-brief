@@ -1,7 +1,7 @@
 {
   "name": "butler-brief",
   "displayName": "Butler Brief",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A morning brief for your household, written in Claude Code: the weather, everyone's day person by person, what to prepare for and your to-do list, from a short file about your family that stays on your computer.",
   "author": {
     "name": "AELaboratories",
