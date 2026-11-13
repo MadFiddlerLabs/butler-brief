@@ -15,7 +15,7 @@ computer except what this skill says below, and only after the user agrees.
 | File | What it holds |
 |---|---|
 | `morning-brief/household.md` | Who lives here, the town for the weather, what they want each morning. Written in step 1 |
-| `morning-brief/todo.md` | The household's to-do list, one item per line starting with `- ` |
+| `morning-brief/todo.md` | The household's open to-dos, one per line: `- <item> (added YYYY-MM-DD)` |
 | `morning-brief/briefs/YYYY-MM-DD.md` | Each day's brief |
 
 ## 1. First time: a short interview
@@ -37,7 +37,9 @@ say you'll leave it out. A person can skip any question.
 
 ## 2. Gather today
 
-Use the date and day of the week from the computer. Then:
+Use the date and day of the week from the computer. If `morning-brief/briefs/<today>.md`
+already exists, show it and ask: "That's today's brief. Shall I refresh it with anything new?"
+Only on yes, gather again and replace it. Then:
 
 - **Calendar.** If this session has a calendar tool (for example a Google Calendar connector
   the user has added), read today's events and tomorrow morning's. The first time, say which
@@ -48,7 +50,7 @@ Use the date and day of the week from the computer. Then:
   `household.md` that weather is allowed. Never search for anything else about the household.
   On no, or with no search tool, leave the weather out.
 - **To-dos and regulars.** Read `morning-brief/todo.md` and the regular items in
-  `household.md` that fall today.
+  `household.md` that fall today. A to-do without a date counts as added today.
 
 ## 3. Write the brief
 
@@ -62,7 +64,8 @@ Keep it under 250 words, in this order. Leave out any section that has nothing i
    you were given. Never invent or guess an event, a time or a place.
 4. **Prepare for**: anything today or tomorrow morning that needs doing ahead (kit, forms,
    gifts, an early start).
-5. **To-dos**: the open items, at most five, oldest first.
+5. **To-dos**: the open items, at most five, oldest first. Say how many more there are, if
+   any ("and 3 more").
 
 Write in plain words. Use the family's names. Do no sums beyond reading the numbers you were
 given. If something couldn't be read, say so in one line ("No calendar today: tell me what's
@@ -71,8 +74,15 @@ on and I'll add it.").
 ## 4. Save and show it
 
 Save it as `morning-brief/briefs/YYYY-MM-DD.md` and show it in the chat. Then say they can
-reply in plain words to change things: "add milk to the to-dos", "Mia has a party on Saturday",
-"leave out the weather". Make the change in the right file and confirm it in one line.
+reply in plain words to change things: "add milk to the to-dos", "milk is done", "Mia has a
+party on Saturday", "leave out the weather". Make the change in the right file and confirm it
+in one line:
+
+- **A new to-do:** add it to `todo.md` with today's date: `- buy milk (added 2026-11-13)`.
+- **A to-do that's done:** remove its line from `todo.md`. If more than one item could match,
+  ask which.
+- **Something about a person or a regular:** update `household.md`.
+- **Anything for today:** offer to refresh today's brief with it.
 
 ## 5. Once, after the first brief
 
