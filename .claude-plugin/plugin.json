@@ -9,6 +9,7 @@
   },
   "homepage": "https://buildyourbutler.com/?utm_source=butler_brief&utm_medium=plugin",
   "repository": "https://github.com/MadFiddlerLabs/butler-brief",
+  "privacyPolicyUrl": "https://github.com/MadFiddlerLabs/butler-brief/blob/main/PRIVACY.md",
   "license": "MIT",
   "keywords": ["household", "family", "morning-brief", "calendar", "personal-assistant"]
 }
