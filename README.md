@@ -57,7 +57,7 @@ An invented example of a brief, for the Johnsons in Lisbon:
 - **The weather:** one web search for your town's forecast, through Claude Code's own search,
   only after you say yes.
 - **Nothing else.** The plugin has no server, runs no scripts and sends nothing to us. It never
-  sends email or messages. See [PRIVACY.md](PRIVACY.md).
+  sends email or messages. Read the full [Privacy](PRIVACY.md) note.
 
 The skill asks you never to share ID numbers, account numbers, passwords or health details, and
 leaves them out if you do.
